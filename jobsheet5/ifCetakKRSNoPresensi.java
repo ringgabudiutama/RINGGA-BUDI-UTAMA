@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class  jobsheet5{
+public class ifCetakKRSNoPresensi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -9,7 +8,11 @@ public class  jobsheet5{
     
         boolean uktLunas = sc.nextBoolean();
         if (uktLunas) {
-            System.out.println("Pembayaran UKT terverifikasi");
+            System.out.println("Pembayaran UKT terverifikasi");try () {
+                
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
             System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");}
        
 
@@ -17,3 +20,5 @@ public class  jobsheet5{
 }
 
         
+    
+
