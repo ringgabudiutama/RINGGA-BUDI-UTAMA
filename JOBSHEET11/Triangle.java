@@ -1,3 +1,4 @@
+package JOBSHEET11;
 import java.util.Scanner;
 
 public class Triangle {
