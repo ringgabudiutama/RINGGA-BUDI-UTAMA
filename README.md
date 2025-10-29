@@ -1,8 +1,9 @@
 # Hi, I'm Ringga Budi Utama 👋
 **Student Informatics Engginering International Class Politeknik Negeri Malang**
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&width=435&lines=Java+Developer;Spring+Boot+Lover;Coding+is+my+Art!)
-![Coding GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+<img src="![Ringga](https://github.com/user-attachments/assets/45cc1f4f-d54f-4376-9173-a8c10edd74da)
+" width="200" style="border-radius:50%">
+
 
 ## 🧠 About Me
 💬 I love building backend systems using **Java & Spring Boot**  
