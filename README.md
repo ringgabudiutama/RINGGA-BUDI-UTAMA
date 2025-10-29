@@ -1,7 +1,9 @@
 # Hi, I'm Ringga Budi Utama 👋
 **Student Informatics Engginering International Class Politeknik Negeri Malang**
 
-<img src="![Ringga.jpg]" width="200" style="border-radius:50%">
+README.md
+Ringga.jpg
+
 
 
 ## 🧠 About Me
