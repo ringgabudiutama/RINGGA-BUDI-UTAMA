@@ -2,7 +2,7 @@
 **Student Informatics Engginering International Class Politeknik Negeri Malang**
 
 <div align="center">
-  <img src="https://github.com/ringgautama/RINGGA-BUDI-UTAMA/blob/main/Ringga.jpg?raw=true"
+  <img src="https://github.com/ringgabudiutama/RINGGA-BUDI-UTAMA/blob/main/Ringga.jpg?raw=true
        width="180"
        style="border-radius: 50%; border: 2px solid #333; box-shadow: 0 0 10px rgba(0,0,0,0.3);"
        alt="Ringga.jpg">
