@@ -1,5 +1,6 @@
+
 import java.util.Scanner;
-public class Biayabensin {
+public class BiayaBensin {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double jarak, liter, biaya;
@@ -16,6 +17,9 @@ public class Biayabensin {
         System.out.println("Jarak Perjalanan : " + jarak + " km");
         System.out.println("Kebutuhan Bensin : " + liter + " liter");
         System.out.println("Total Biaya      : Rp. " + biaya);
+
+        sc.close();
+        
     }
     
 }
