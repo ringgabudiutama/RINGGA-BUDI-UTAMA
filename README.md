@@ -1,6 +1,15 @@
 # Hi, I'm Ringga Budi Utama 👋
 **Student Informatics Engginering International Class**
 
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&width=435&lines=Java+Developer;Spring+Boot+Lover;Coding+is+my+Art!)
+![Coding GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+
+## 🧠 About Me
+💬 I love building backend systems using **Java & Spring Boot**  
+🎯 Focused on writing clean, scalable code  
+🌱 Currently learning **Docker & Microservices**
+
+
 ![Java Badge](https://img.shields.io/badge/Language-Java-007396?logo=java&logoColor=white&style=for-the-badge)
 ![Maven](https://img.shields.io/badge/Build-Maven-C71A36?logo=apache-maven&logoColor=white&style=for-the-badge)
 ![Spring Boot](https://img.shields.io/badge/Framework-SpringBoot-6DB33F?logo=spring&logoColor=white&style=for-the-badge)
