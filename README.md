@@ -1,5 +1,5 @@
-<div  # Hi, I'm Ringga Budi Utama 👋
-<div **Student Informatics Engginering International Class Politeknik Negeri Malang**
+ # Hi, I'm Ringga Budi Utama 👋
+**Student Informatics Engginering International Class Politeknik Negeri Malang**
 
 <div align="center">
   <img src="https://github.com/ringgabudiutama/RINGGA-BUDI-UTAMA/blob/main/Ringga.jpg?raw=true"
