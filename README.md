@@ -35,7 +35,6 @@ https://github.com/ringgabudiutama/RINGGA-BUDI-UTAMA
 
 ## 📫 Contact
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/ringgabudiutama)
-[![Email](https://img.shields.io/badge/Email-your.email%40mail.com-D14836?logo=gmail&logoColor=white&style=for-the-badge)](ringgabudiutama819@gmail.com)
 
 ---
 
