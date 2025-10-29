@@ -3,10 +3,15 @@
 
 <div align="center">
   <img src="https://github.com/ringgabudiutama/RINGGA-BUDI-UTAMA/blob/main/Ringga.jpg?raw=true"
-       width="180"
-       style="border-radius: 50%; border: 2px solid #333; box-shadow: 0 0 10px rgba(0,0,0,0.3);"
+       width="170"
+       style="border-radius: 50%;
+              border: 2px solid #333;
+              box-shadow: 0 0 12px rgba(0,0,0,0.25);
+              margin-top: 10px;
+              margin-bottom: 15px;"
        alt="Ringga Budi Utama">
 </div>
+
 
 
 
