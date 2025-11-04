@@ -29,7 +29,7 @@ public class CafeOrderManagerXX {
             
             totalCost += itemPrices[i];
             
-            // Consume newline character after nextDouble()
+        
             sc.nextLine(); 
         }
 
