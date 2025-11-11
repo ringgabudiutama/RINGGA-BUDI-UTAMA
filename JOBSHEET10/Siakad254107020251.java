@@ -1,3 +1,4 @@
+package JOBSHEET10;
 import java.util.Scanner;
 
 public class Siakad254107020251{
