@@ -1,6 +1,6 @@
 package Random;
 
-public class Kuis21Fauzi {
+public class Ringgabd {
     public static void main(String[] args) {
         String[] menu = {"Italian Food", "Korean Food", "Chinese Food", "Khas Jogja", "Khas Madura"};
         int[][] menuLayanan = {
@@ -9,6 +9,9 @@ public class Kuis21Fauzi {
             {9, 14, 10},    // chinese food
             {12, 5, 7},     // khas jogja
             {5, 8, 5}       // khas madura
+
+            
+            
         };
         int[] totalPerMenu = new int[menuLayanan.length];
         int hargaMakananLuarNegeri = 50_000;
