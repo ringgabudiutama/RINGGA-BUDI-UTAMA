@@ -1,8 +1,6 @@
-package UAS.UAS;
-
 import java.util.Scanner;
 // Mulai dari sini ( start )
-public class UasRingga {
+public class Quiz2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
