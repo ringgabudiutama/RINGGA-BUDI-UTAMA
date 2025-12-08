@@ -8,7 +8,7 @@ public class PowerRecursiveIDStudentNumber {
     static int calculatePower(int base, int pow) {
         if (pow == 0)
             return 1;
-        else
+        else9
             return base * calculatePower(base, pow - 1);
     }
 

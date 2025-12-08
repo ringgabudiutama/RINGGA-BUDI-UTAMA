@@ -1,8 +1,8 @@
 package JOBSHEET11;
-
 import java.util.Scanner;
 
 public class SummationRecursive {
+
 
     static int summation(int n){
         if(n == 0)
