@@ -25,8 +25,7 @@ public class Scholarship {
     3 = Jenis Beasiswa
     4 = Penghasilan Orang Tua
     */
-    static String[][] data = new String[100][5]; // kalau tidak ingin ada batasan, boleh pakai ArrayList
-    
+    static String[][] data = new String[100][5];
 
     // Menyimpan jumlah pendaftar
     static int jumlah = 0;
@@ -34,7 +33,6 @@ public class Scholarship {
     public static void main(String[] args) {
         int menu;
 
-        // Menu berjalan terus sampai user memilih keluar
         do {
             tampilMenu();
             menu = input.nextInt();
@@ -72,7 +70,6 @@ public class Scholarship {
     // ================= MENU 1 =================
     static void tambahData() {
 
-        // Input data mahasiswa
         System.out.print("Nama Mahasiswa: ");
         data[jumlah][0] = input.nextLine();
 
@@ -85,7 +82,6 @@ public class Scholarship {
         System.out.print("Jenis Beasiswa (Reguler/Unggulan/Riset): ");
         data[jumlah][3] = input.nextLine();
 
-        // Validasi jenis beasiswa
         if (!data[jumlah][3].equalsIgnoreCase("Reguler") &&
             !data[jumlah][3].equalsIgnoreCase("Unggulan") &&
             !data[jumlah][3].equalsIgnoreCase("Riset")) {
@@ -93,23 +89,15 @@ public class Scholarship {
             return;
         }
 
-        // Input penghasilan orang tua
         System.out.print("Penghasilan Orang Tua (maksimal 2000000): ");
         double income = input.nextDouble();
         input.nextLine();
 
-        /*
-        Penentuan diterima / ditolak
-        Sesuai jobsheet:
-        - Jika penghasilan > 2.000.000 → DITOLAK
-        - IPK tidak digunakan sebagai syarat
-        */
         if (income > 2000000) {
             System.out.println("Pendaftaran ditolak karena penghasilan melebihi batas.");
             return;
         }
 
-        // Jika lolos, data disimpan
         data[jumlah][4] = String.valueOf(income);
         jumlah++;
 
@@ -119,13 +107,11 @@ public class Scholarship {
     // ================= MENU 2 =================
     static void tampilSemua() {
 
-        // Jika belum ada data
         if (jumlah == 0) {
             System.out.println("Belum ada pendaftar.");
             return;
         }
 
-        // Menampilkan seluruh data pendaftar
         for (int i = 0; i < jumlah; i++) {
             System.out.println("\nPendaftar ke-" + (i + 1));
             System.out.println("Nama Mahasiswa : " + data[i][0]);
@@ -143,7 +129,6 @@ public class Scholarship {
         String cari = input.nextLine();
         boolean ditemukan = false;
 
-        // Mencari data berdasarkan jenis beasiswa
         for (int i = 0; i < jumlah; i++) {
             if (data[i][3].equalsIgnoreCase(cari)) {
                 System.out.println(
@@ -161,20 +146,13 @@ public class Scholarship {
     // ================= MENU 4 =================
     static void hitungRataIPK() {
 
-        // Daftar jenis beasiswa
         String[] jenis = {"Reguler", "Unggulan", "Riset"};
 
-        /*
-        Nested Loop:
-        Loop luar  -> jenis beasiswa
-        Loop dalam -> data mahasiswa
-        */
         for (int j = 0; j < jenis.length; j++) {
 
             double totalIPK = 0;
             int jumlahData = 0;
 
-            // Menjumlahkan IPK sesuai jenis
             for (int i = 0; i < jumlah; i++) {
                 if (data[i][3].equalsIgnoreCase(jenis[j])) {
                     totalIPK += Double.parseDouble(data[i][2]);
@@ -182,7 +160,6 @@ public class Scholarship {
                 }
             }
 
-            // Menghitung rata-rata IPK
             if (jumlahData > 0) {
                 double rata = totalIPK / jumlahData;
                 System.out.println(jenis[j] + " : rata-rata IPK = " + rata);
@@ -190,5 +167,23 @@ public class Scholarship {
                 System.out.println(jenis[j] + " : tidak ada pendaftar.");
             }
         }
+    }
+
+    // ================= TAMBAHAN =================
+    static void hitungRataPenghasilan() {
+
+        if (jumlah == 0) {
+            System.out.println("Belum ada pendaftar.");
+            return;
+        }
+
+        double totalPenghasilan = 0;
+
+        for (int i = 0; i < jumlah; i++) {
+            totalPenghasilan += Double.parseDouble(data[i][4]);
+        }
+
+        double rataRata = totalPenghasilan / jumlah;
+        System.out.println("Rata-rata penghasilan orang tua: " + rataRata);
     }
 }
