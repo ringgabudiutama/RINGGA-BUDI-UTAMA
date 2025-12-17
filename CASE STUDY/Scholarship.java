@@ -25,7 +25,8 @@ public class Scholarship {
     3 = Jenis Beasiswa
     4 = Penghasilan Orang Tua
     */
-    static String[][] data = new String[100][5];
+    static String[][] data = new String[100][5]; // kalau tidak ingin ada batasan, boleh pakai ArrayList
+    
 
     // Menyimpan jumlah pendaftar
     static int jumlah = 0;
